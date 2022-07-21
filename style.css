@@ -12,7 +12,7 @@
 body{
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(247, 247, 247, 1);
     margin: 0;
     padding: 0;
     display: flex;
@@ -68,3 +68,36 @@ body{
 .instagram-logo{
     height: 3rem;
 }
+
+.profile-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-photo img{
+    height: 6rem;
+}
+
+.instagram-login{
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.instagram-logout{
+    color: #0095f6;
+    margin-top: 1rem;   
+}
+
+.not-account{
+    color: rgb(160, 160, 160);
+}
+
+.link-blue{
+  color: #0095f6;
+}
+
